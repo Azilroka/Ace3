@@ -43,6 +43,10 @@ AceHook-3.0/AceHook-3.0.lua svn_keywords=Date%0AId%0ARev
 AceLocale-3.0/AceLocale-3.0.lua svn_keywords=Id+Date+Rev
 /AceSerializer-3.0 svnc_tsvn_003alogtemplate
 AceSerializer-3.0/AceSerializer-3.0.lua svn_keywords=Id
+/AceTab-3.0 svnc_tsvn_003alogtemplate=Ace3+-+
+AceTab-3.0/AceConfigTab-3.0.lua -text
+AceTab-3.0/AceTab-3.0.lua -text
+AceTab-3.0/AceTab-3.0.xml -text
 AceTimer-3.0/AceTimer-3.0.lua svn_keywords=Date%0AId%0ARev
 CallbackHandler-1.0/CallbackHandler-1.0.lua svn_keywords=Id+Rev+Date
 /LICENSE.txt svneol=native#text/plain
