@@ -36,6 +36,8 @@ AceGUI-3.0/widgets/AceGUIWidget-Keybinding.lua svn_keywords=Rev+Id+Date
 AceGUI-3.0/widgets/AceGUIWidget-Slider.lua svn_keywords=Rev+Id+Date
 AceHook-3.0/AceHook-3.0.lua svn_keywords=Date%0AId%0ARev
 AceLocale-3.0/AceLocale-3.0.lua svn_keywords=Id+Date+Rev
+AceLocale-3.1/AceLocale-3.1.lua -text
+AceLocale-3.1/AceLocale-3.1.xml -text
 AceSerializer-3.0/AceSerializer-3.0.lua svn_keywords=Id
 AceTab-3.0/AceTab-3.0.lua svn_keywords=Id
 AceTimer-3.0/AceTimer-3.0.lua svn_keywords=Date%0AId%0ARev
