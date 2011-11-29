@@ -15,7 +15,7 @@ REQUIRES: AceConsole-3.0 for command registration (loaded on demand)
 -- TODO: plugin args
 
 
-local MAJOR, MINOR = "AceConfigCmd-3.0", 13
+local MAJOR, MINOR = "AceConfigCmd-3.0", 12
 local AceConfigCmd = LibStub:NewLibrary(MAJOR, MINOR)
 
 if not AceConfigCmd then return end
@@ -642,14 +642,7 @@ local function handle(info, inputpos, tab, depth, retfalse)
 		
 		local r, g, b, a
 		
-		local hasAlpha = tab.hasAlpha
-		if type(hasAlpha) == "function" or type(hasAlpha) == "string" then
-			info.hasAlpha = hasAlpha
-			hasAlpha = callmethod(info, inputpos, tab, 'hasAlpha')
-			info.hasAlpha = nil
-		end
-		
-		if hasAlpha then
+		if tab.hasAlpha then
 			if str:len() == 8 and str:find("^%x*$")  then
 				--parse a hex string
 				r,g,b,a = tonumber(str:sub(1, 2), 16) / 255, tonumber(str:sub(3, 4), 16) / 255, tonumber(str:sub(5, 6), 16) / 255, tonumber(str:sub(7, 8), 16) / 255
