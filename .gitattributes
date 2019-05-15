@@ -1,5 +1,6 @@
 * text=auto !eol
 /.docmeta -text
+/.editorconfig -text
 /.pkgmeta -text
 AceAddon-3.0/AceAddon-3.0.lua svn_keywords=Date%0AId%0ARev
 AceBucket-3.0/AceBucket-3.0.lua svn_keywords=Date%0AId%0ARev
